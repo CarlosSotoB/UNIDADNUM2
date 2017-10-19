@@ -1,0 +1,5 @@
+setup.py
+perimeter.egg-info/PKG-INFO
+perimeter.egg-info/SOURCES.txt
+perimeter.egg-info/dependency_links.txt
+perimeter.egg-info/top_level.txt

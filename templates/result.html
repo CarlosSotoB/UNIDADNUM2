@@ -1,0 +1,34 @@
+{%  extends 'base.html' %}
+{%  block body %}
+    <h2>{{the_title}}</h2>
+
+    <table>
+
+        <tr>
+            <td> bm:</td>
+            <td>{{ the_bm }}</td>
+        </tr>
+        <tr>
+            <td> b:</td>
+            <td>{{ the_b }}</td>
+        </tr>
+        <tr>
+            <td> a:</td>
+            <td>{{ the_a }}</td>
+        </tr>
+        <tr>
+            <td> c:</td>
+            <td>{{ the_c }}</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                bm+b+a+c
+            </td>
+        </tr>
+        <tr>
+            <td>perimeter:</td>
+                <td>{{ the_result }}</td>
+        </tr>
+    </table>
+    <p><a href="/entry"> Regresar </a> </p>
+{% endblock %}
